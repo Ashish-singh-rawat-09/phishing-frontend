@@ -3,8 +3,7 @@ import axios from 'axios';
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 // 📡 APNI LIVE BACKEND ENDPOINT URL YAHAN STRIP KAREIN (e.g., https://cyber-backend.onrender.com)
-const BACKEND_URL = "http://localhost:5000"; 
-
+const BACKEND_URL = "https://cybersentinel-backend-s4sh.onrender.com";
 function App() {
   // 🔐 Authentication & Control States
   const [token, setToken] = useState(localStorage.getItem('adminToken') || null);
